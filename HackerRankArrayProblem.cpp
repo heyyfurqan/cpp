@@ -12,15 +12,15 @@ using namespace std;
 int main()
 {
 	int size;
-	scanf_s("%d", &size);
+	cin >> size;
 	int* A = new int(size);
 	for (int i = 0; i < size; i++)
 	{
-		scanf_s("%d", &A[i]);
+		cin >> A[i];
 	}
 	for (int i = size; i >= 1; i--)
 	{
-		printf("%1d", A[i-1]);
+		cout << A[i - 1] << " ";
 	}
 	return 0;
 }
