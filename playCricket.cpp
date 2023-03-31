@@ -103,7 +103,7 @@ int main()
     doToss(toss);
     if (playerScore > compScore)
     {
-        cout << "Congrats. You won." << endl;
+        cout << "Congrats! You won." << endl;
     }
     else
     {

@@ -5,9 +5,13 @@ using namespace std;
 
 int main()
 {
-	int n, sum;
+	int n, sum = 0;
 	cout << "Enter number: " << endl;
 	cin >> n;
-	sum = n * (n + 1) / 2;
+	for (int i = 1;i <= n;)
+	{
+		sum += i;
+		i++;
+	}
 	cout << "Sum of 1 to " << n << " is: " << sum << endl;
 }
